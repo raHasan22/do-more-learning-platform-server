@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "HTML",
+        "detail": "HTML is the standard markup language for Web pages.",
+        "description": "Learning how to code allows you to bring out your personality on your own website, enables you to stand out from the crowd, contribute to projects better, helps you understand and explore other languages and provides you with an opportunity to transition into a different career.",
+        "image": "https://play-lh.googleusercontent.com/85WnuKkqDY4gf6tndeL4_Ng5vgRk7PTfmpI4vHMIosyq6XQ7ZGDXNtYG2s0b09kJMw",
+        "price": "20",
+        "rating": "4.5"
+    },
+    {
+        "id": 2,
+        "name": "CSS",
+        "detail": "CSS is the language we use to style an HTML document.",
+        "description": "Not only is it a basic requirement if you want to become a Web Developer, but you'll use it daily on every webpage you work on in this field. CSS is also useful for people who may never build a web application.",
+        "image": "https://rastonosumardi.tech/wp-content/uploads/2022/06/unnamed.png",
+        "price": "20",
+        "rating": "4.5"
+    }
+]
