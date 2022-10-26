@@ -1,7 +1,10 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const courses = require('./courses.json');
 const port = process.env.PORT || 5000;
+
+app.use(cors());
 
 app.get('/', (req, res) => {
     res.send('Server running!!')
@@ -14,7 +17,7 @@ app.get('/courses', (req, res) => {
 app.get('/courses/:id', (req, res) =>{
     const id = parseInt(req.params.id);
 
-    const course = courses.find(course => course.id === id);
+    const course = courses.find(course => course.id === id) || {};
     res.send(course);
 })
 
